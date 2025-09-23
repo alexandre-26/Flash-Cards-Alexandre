@@ -21,6 +21,7 @@ le respostaEstaVisivil = false
 
 function viracartao(){
     respostaEstaVisivil
+    cartao.classList.toggle('active',respostaEstaVisivil)
 }
 
 
@@ -29,7 +30,7 @@ function viracartao(){
 
 
 
-
+    cartao.addEventListener('click',viraca)
     container.appendChild(cartao)
     
 }
