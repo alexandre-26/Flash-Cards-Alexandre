@@ -17,10 +17,10 @@ function criaCartao(categoria, pergunta, resposta) {
 
 
 
-le respostaEstaVisivil = false
+let respostaEstaVisivil = false
 
 function viracartao(){
-    respostaEstaVisivil
+    respostaEstaVisivil=!respostaEstaVisivil
     cartao.classList.toggle('active',respostaEstaVisivil)
 }
 
@@ -30,7 +30,8 @@ function viracartao(){
 
 
 
-    cartao.addEventListener('click',viraca)
+    cartao.addEventListener('click',viracartao)
+
     container.appendChild(cartao)
     
 }
