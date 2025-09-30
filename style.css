@@ -2,8 +2,8 @@
     --text-color: #000000;
     --card-front-color: #e00000;
     --card-back-color: #000000;
-    --cor-da-borda:#0044ff;
-    --cor-fundo-cartao: #ffffff;
+    --cor-da-borda:#000000;
+    --cor-fundo-cartao: #f31515;
 }
 
 body {
