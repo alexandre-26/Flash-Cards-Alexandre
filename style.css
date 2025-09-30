@@ -1,9 +1,9 @@
 :root {
-    --text-color: #5f96da;
+    --text-color: #dbe4ef;
     --card-front-color: #144480;
     --card-back-color: #00f4bf;
     --cor-da-borda:#1509f5;
-    --cor-fundo-cartao:#000000;
+    --cor-fundo-cartao: #ffffff;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
     font-weight: 700;
 }
 
-.cartao.activ .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
