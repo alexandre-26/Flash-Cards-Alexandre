@@ -1,8 +1,8 @@
 :root {
-    --text-color: #dbe4ef;
-    --card-front-color: #144480;
-    --card-back-color: #00f4bf;
-    --cor-da-borda:#1509f5;
+    --text-color: #000000;
+    --card-front-color: #e00000;
+    --card-back-color: #00ffc8;
+    --cor-da-borda:#0044ff;
     --cor-fundo-cartao: #ffffff;
 }
 
